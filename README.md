@@ -1,4 +1,5 @@
-# couchbase-ansible
+## couchbase-ansible
+```bash
 - name: Couchbase Installation
 hosts: couchbase_grup
 become: true
@@ -66,3 +67,4 @@ couchbase_security:
 roles:
 — customrole.disable-thp
 — customrole.couchbase-exporter
+```
