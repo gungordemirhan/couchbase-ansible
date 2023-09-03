@@ -23,7 +23,7 @@ copy: src=/etc/ansible/files/couchbase-server-enterprise_surum-redhat8_amd64.deb
 - name: Couchbase Installation | Install couchbase from deb file
 become: true
 apt:
-deb: /tmp/couchbase-server-enterprise_surum-ubuntuXX.XX_amd64.deb
+deb: /tmp/couchbase-server-enterprise_surum-redhat8_amd64.deb
 
 - name: Start couchbase server
 become: true
